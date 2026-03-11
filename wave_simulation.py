@@ -39,7 +39,7 @@ claw = pyclaw.Controller()
 claw.solution = pyclaw.Solution(state,domain)
 claw.solver = solver
 claw.tfinal = 2.0
-claw.num_output_times = 20
+claw.num_output_times = 200
 claw.keep_copy = True
 
 claw.run()
@@ -65,8 +65,8 @@ for frame in claw.frames:
         linewidth=0,
         antialiased=True
     )
-
-    ax.set_zlim(0.8,1.6)
+    ax.view_init(elev=35, azim=frame.t*50) # Rotate the view over time
+    ax.set_zlim(0.95,1.1) # Set consistent z-axis limits for better visualization
     ax.set_title(f"Wave Simulation — Time {frame.t:.2f}")
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
