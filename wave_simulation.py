@@ -1,8 +1,8 @@
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
-from clawpack import pyclaw
-from clawpack import riemann
+from clawpack import pyclaw # type: ignore
+from clawpack import riemann # type: ignore
 
 
 def initial_condition(state):
