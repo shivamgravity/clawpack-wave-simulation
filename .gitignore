@@ -1,1 +1,3 @@
 venv/
+miniconda
+__pycache__/
