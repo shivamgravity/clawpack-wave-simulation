@@ -130,6 +130,7 @@ Display animated result in Streamlit
 
 # 📂 Project Structure
 
+```text
 ClawPack-Wave-Simulation
 │
 ├── wave_simulation.py
@@ -142,7 +143,7 @@ ClawPack-Wave-Simulation
 │ Project documentation
 │
 └── requirements.txt
-
+```
 
 ---
 
@@ -231,7 +232,7 @@ Press **Run Simulation** to visualize the wave propagation.
 
 Example visualization produced by the simulator:
 
-[Demo Simulation](/demo_simulation/demo.gif)
+![Demo Simulation](/demo_simulation/demo.gif)
 
 
 The disturbance creates circular waves that propagate outward across the water surface.
