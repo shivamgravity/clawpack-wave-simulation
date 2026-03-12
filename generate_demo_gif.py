@@ -76,6 +76,6 @@ for file in frame_files:
     images.append(imageio.imread(file))
 
 
-imageio.mimsave("simulation_images/demo.gif", images, fps=10)
+imageio.mimsave("demo_simulation/demo.gif", images, fps=10)
 
 print("GIF saved as demo.gif")
