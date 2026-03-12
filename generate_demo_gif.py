@@ -37,8 +37,8 @@ initial_condition(state)
 claw = pyclaw.Controller()
 claw.solution = pyclaw.Solution(state,domain)
 claw.solver = solver
-claw.tfinal = 0.5
-claw.num_output_times = 20
+claw.tfinal = 5.0
+claw.num_output_times = 200
 claw.keep_copy = True
 
 claw.run()
