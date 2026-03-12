@@ -133,18 +133,27 @@ Display animated result in Streamlit
 ```text
 ClawPack-Wave-Simulation
 │
-├── wave_simulation.py
-│ Standalone simulation script
-│
 ├── streamlit_app.py
-│ Interactive Streamlit simulation app
+│ Interactive Streamlit application for running the wave simulation
 │
-├── README.md
+├── wave_simulation.py
+│ Standalone script for running the wave simulation locally
+│
+├── generate_demo_gif.py
+│ Script that generates an animated GIF of the simulation
+│
+├── demo_simulation/
+│ └── demo.gif
+│ Example animation showing wave propagation
+│
+├── requirements.txt
+│ Python dependencies required to run the project
+│
+├── environment.yml
+│ Conda environment configuration for reproducibility
+│
+└── README.md
 │ Project documentation
-│
-└── requirements.txt
-│
-└── environment.yml
 ```
 
 ---
