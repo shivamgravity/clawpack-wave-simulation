@@ -38,8 +38,8 @@ initial_condition(state)
 claw = pyclaw.Controller()
 claw.solution = pyclaw.Solution(state,domain)
 claw.solver = solver
-claw.tfinal = 5.0
-claw.num_output_times = 200
+claw.tfinal = 0.5
+claw.num_output_times = 20
 claw.keep_copy = True
 
 claw.run()
@@ -72,6 +72,6 @@ for frame in claw.frames:
     ax.set_ylabel("Y")
     ax.set_zlabel("Water Height")
 
-    plt.pause(0.01)
+    plt.pause(0.1)
 
 plt.show()
