@@ -143,6 +143,7 @@ ClawPack-Wave-Simulation
 │ Project documentation
 │
 └── requirements.txt
+|__ environment.yml
 ```
 
 ---
