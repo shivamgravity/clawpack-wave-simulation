@@ -2,3 +2,4 @@ venv/
 _output/
 *.log
 images/
+frames/
