@@ -4,7 +4,7 @@ from matplotlib import cm
 import imageio
 import os
 
-from clawpack import pyclaw, riemann
+from clawpack import pyclaw, riemann # type: ignore
 
 
 def initial_condition(state):
